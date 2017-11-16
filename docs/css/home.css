@@ -346,8 +346,12 @@ h1, h2, h3, h4, h5, h6, strong {
     background-color: #F4F4F4;
     overflow: auto;
 }
-.code-box code {
+.code-box code, .inline-code {
     font-family: Courier New, serif;
+}
+
+.inline-code {
+    font-size: 0.9em;
 }
 
 .get-started-steps {
